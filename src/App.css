@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+/* src/styles.css */
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+nav a {
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #000000;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
